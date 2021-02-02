@@ -27,7 +27,7 @@ for i in range(n):
             del stack[p]
             p-=1
            # print(2)
-    print("플래그 {} , p {} , stack {}".format(flag,p,stack))
+   # print("플래그 {} , p {} , stack {}".format(flag,p,stack))
     if p==-1 and flag==True: 
        print("YES")
        continue
